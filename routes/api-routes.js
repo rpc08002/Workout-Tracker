@@ -12,7 +12,7 @@ router.get("/workouts", (req, res) => {
 });
 
 router.put("/workouts/:id", ({ params, body }, res) => {
-  console.log(body);
+  console.log("workouts", body);
   db.Workout.findByIdAndUpdate(
     params.id,
     {
@@ -29,7 +29,7 @@ router.put("/workouts/:id", ({ params, body }, res) => {
       res.json(dbWorkout);
     })
     .catch((err) => {
-      res.json(err);
+      return res.json(err);
     });
 });
 

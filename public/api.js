@@ -29,8 +29,8 @@ const API = {
       body: JSON.stringify(data),
       headers: { "Content-Type": "application/json" }
     });
-
     const json = await res.json();
+    console.log(json);
 
     return json;
   },

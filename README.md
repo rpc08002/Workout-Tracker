@@ -20,9 +20,9 @@ As a user, you will be able to view, create, and track daily workouts.  You can 
 
 [Github Repository](https://github.com/rpc08002/Workout-Tracker)
 
-[Live URL]()
+[Live URL](https://muscle-bu1lder.herokuapp.com/)
 
-![Website GIF]()
+![Website GIF](public/workout.gif)
 
 ## License
 
